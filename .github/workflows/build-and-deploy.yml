@@ -16,7 +16,7 @@ jobs:
         run: yarn --frozen-lockfile
       - name: Build
         run: yarn build
-        with:
+        env:
           PUBLIC_URL: /kaamelott-soundboard
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@3.6.1
