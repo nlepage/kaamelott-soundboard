@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/kaamelott-soundboard/precache-manifest.3bdc6f8953b5cde64ed6edcd7a93be13.js"
+  "/kaamelott-soundboard/precache-manifest.8a0d252b4184158f86bcb79ac41ab4e4.js"
 );
 
 self.addEventListener('message', (event) => {
