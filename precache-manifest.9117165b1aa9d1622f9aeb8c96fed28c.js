@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "712a659ccefa761f9375d1e4a60c73c9",
+    "revision": "e340d4350b1267bf1d955f6355dfed8a",
     "url": "/kaamelott-soundboard/index.html"
   },
   {
-    "revision": "8171819f0d0c61012a02",
+    "revision": "01e716c841c072bea689",
     "url": "/kaamelott-soundboard/static/css/main.27fd15f6.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/kaamelott-soundboard/static/js/2.8ba980a5.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8171819f0d0c61012a02",
-    "url": "/kaamelott-soundboard/static/js/main.391e968b.chunk.js"
+    "revision": "01e716c841c072bea689",
+    "url": "/kaamelott-soundboard/static/js/main.7a4667af.chunk.js"
   },
   {
     "revision": "ba7066dfc7f8e8cfd6e1",
