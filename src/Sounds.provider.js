@@ -6,7 +6,7 @@ export function SoundsProvider({ children }) {
   const [sounds, setSounds] = useState([])
 
   useEffect(() => {
-    fetch('/sounds/sounds.json')
+    fetch('sounds/sounds.json')
       .then(res => res.json())
       .then(setSounds)
       .catch(console.error)
