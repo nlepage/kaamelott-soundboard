@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/kaamelott-soundboard/static/css/main.27fd15f6.chunk.css",
+    "main.js": "/kaamelott-soundboard/static/js/main.92c0dd00.chunk.js",
+    "main.js.map": "/kaamelott-soundboard/static/js/main.92c0dd00.chunk.js.map",
+    "runtime-main.js": "/kaamelott-soundboard/static/js/runtime-main.bdab2824.js",
+    "runtime-main.js.map": "/kaamelott-soundboard/static/js/runtime-main.bdab2824.js.map",
+    "static/js/2.2bb44971.chunk.js": "/kaamelott-soundboard/static/js/2.2bb44971.chunk.js",
+    "static/js/2.2bb44971.chunk.js.map": "/kaamelott-soundboard/static/js/2.2bb44971.chunk.js.map",
+    "index.html": "/kaamelott-soundboard/index.html",
+    "precache-manifest.fc22e0f21d29ccf3b6336dc299c4883d.js": "/kaamelott-soundboard/precache-manifest.fc22e0f21d29ccf3b6336dc299c4883d.js",
+    "service-worker.js": "/kaamelott-soundboard/service-worker.js",
+    "static/css/main.27fd15f6.chunk.css.map": "/kaamelott-soundboard/static/css/main.27fd15f6.chunk.css.map",
+    "static/js/2.2bb44971.chunk.js.LICENSE.txt": "/kaamelott-soundboard/static/js/2.2bb44971.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bdab2824.js",
+    "static/js/2.2bb44971.chunk.js",
+    "static/css/main.27fd15f6.chunk.css",
+    "static/js/main.92c0dd00.chunk.js"
+  ]
+}
