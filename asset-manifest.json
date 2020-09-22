@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/kaamelott-soundboard/static/css/main.27fd15f6.chunk.css",
-    "main.js": "/kaamelott-soundboard/static/js/main.bb29996f.chunk.js",
-    "main.js.map": "/kaamelott-soundboard/static/js/main.bb29996f.chunk.js.map",
+    "main.js": "/kaamelott-soundboard/static/js/main.ae9badef.chunk.js",
+    "main.js.map": "/kaamelott-soundboard/static/js/main.ae9badef.chunk.js.map",
     "runtime-main.js": "/kaamelott-soundboard/static/js/runtime-main.bdab2824.js",
     "runtime-main.js.map": "/kaamelott-soundboard/static/js/runtime-main.bdab2824.js.map",
-    "static/js/2.2bb44971.chunk.js": "/kaamelott-soundboard/static/js/2.2bb44971.chunk.js",
-    "static/js/2.2bb44971.chunk.js.map": "/kaamelott-soundboard/static/js/2.2bb44971.chunk.js.map",
+    "static/js/2.1e13f043.chunk.js": "/kaamelott-soundboard/static/js/2.1e13f043.chunk.js",
+    "static/js/2.1e13f043.chunk.js.map": "/kaamelott-soundboard/static/js/2.1e13f043.chunk.js.map",
     "index.html": "/kaamelott-soundboard/index.html",
-    "precache-manifest.cc01c2c4dc4eea48077f18691666ee1f.js": "/kaamelott-soundboard/precache-manifest.cc01c2c4dc4eea48077f18691666ee1f.js",
+    "precache-manifest.3a92539f610b781be476c07171c80301.js": "/kaamelott-soundboard/precache-manifest.3a92539f610b781be476c07171c80301.js",
     "service-worker.js": "/kaamelott-soundboard/service-worker.js",
     "static/css/main.27fd15f6.chunk.css.map": "/kaamelott-soundboard/static/css/main.27fd15f6.chunk.css.map",
-    "static/js/2.2bb44971.chunk.js.LICENSE.txt": "/kaamelott-soundboard/static/js/2.2bb44971.chunk.js.LICENSE.txt"
+    "static/js/2.1e13f043.chunk.js.LICENSE.txt": "/kaamelott-soundboard/static/js/2.1e13f043.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.bdab2824.js",
-    "static/js/2.2bb44971.chunk.js",
+    "static/js/2.1e13f043.chunk.js",
     "static/css/main.27fd15f6.chunk.css",
-    "static/js/main.bb29996f.chunk.js"
+    "static/js/main.ae9badef.chunk.js"
   ]
 }
