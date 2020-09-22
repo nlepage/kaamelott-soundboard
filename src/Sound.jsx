@@ -3,7 +3,7 @@ import React from 'react'
 import { useAudio } from './Sound.hooks'
 
 export function Sound({ file, title }) {
-  const { onClick, className } = useAudio(file)
+  const { playStop, rythmClassName } = useAudio(file)
   
-  return <button onClick={onClick} className={className}>{title}</button>
+  return <button onClick={playStop} className={rythmClassName}>{title}</button>
 }
