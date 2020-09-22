@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from "react"
-import Rythm, {} from 'rythm.js'
+import Rythm from 'rythm.js'
 
 export function useAudio(file) {
   const audio = useMemo(() => new Audio(`sounds/${file}`), [file])

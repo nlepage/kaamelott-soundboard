@@ -5,3 +5,7 @@ import { SoundsContext } from "./Sounds.context"
 export function useSounds() {
   return useContext(SoundsContext).sounds
 }
+
+export function useCharacters() {
+  return useContext(SoundsContext).characters
+}
