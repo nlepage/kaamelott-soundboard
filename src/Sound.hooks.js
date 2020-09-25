@@ -15,7 +15,7 @@ export function useAudio(file) {
     if (!rythm.current) {
       rythm.current = new Rythm()
       rythm.current.connectExternalAudioElement(audio)
-      rythm.current.addRythm(rythmClassName, 'pulse', 150, 40, { min: 1, max: 1.5 })
+      rythm.current.addRythm(rythmClassName, 'pulse', 150, 40, { min: 0.9, max: 2 })
     }
     rythm.current.start()
   }, [audio, rythmClassName])
