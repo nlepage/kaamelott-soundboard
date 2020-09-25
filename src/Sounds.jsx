@@ -22,7 +22,7 @@ export function Sounds() {
       <div>
         <select onChange={e => setCharacterFilter(e.target.value)}>
           <option></option>
-          {characters.map(character => <option key={character} value={character}>{character}</option>)}
+          {characters.map(character => <option key={character.name} value={character.name}>{character.name}</option>)}
         </select>
         <select onChange={e => setEpisodeFilter(e.target.value)}>
           <option></option>

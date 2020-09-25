@@ -4,6 +4,7 @@ import { SoundsContext } from "./Sounds.context"
 
 export function SoundsProvider({ children }) {
   const [rawSounds, setRawSounds] = useState([])
+  const [rawCharacters, setRawCharacters] = useState([])
 
   useEffect(() => {
     fetch('sounds/sounds.json')
@@ -12,9 +13,16 @@ export function SoundsProvider({ children }) {
       .catch(console.error)
   }, [])
 
+  useEffect(() => {
+    fetch('characters/characters.json')
+      .then(res => res.json())
+      .then(setRawCharacters)
+      .catch(console.error)
+  }, [])
+
   const value = useMemo(() => {
     const sounds = rawSounds.map(extendSound).sort((sound1, sound2) => sound1.title.localeCompare(sound2.title))
-    const characters = Array.from(new Set(sounds.flatMap(sound => sound.characters))).sort()
+    const characters = Array.from(new Set(sounds.flatMap(sound => sound.characters))).sort().map(character => rawCharacters.find(rawCharacter => rawCharacter.name === character) ?? { name: character })
     const episodes = Array.from(new Map(sounds.map(sound => [sound.episode.key, sound.episode])).values()).sort((episode1, episode2) => episode1.key.localeCompare(episode2.key))
     const booksMap = new Map(episodes.map(episode => [episode.book, { title: episode.book, episodes: [] }]))
     const books = Array.from(booksMap.values()).sort((book1, book2) => book1.title.localeCompare(book2.title))
@@ -26,7 +34,7 @@ export function SoundsProvider({ children }) {
       episodes,
       books,
     }
-  }, [rawSounds])
+  }, [rawCharacters, rawSounds])
 
   return (
     <SoundsContext.Provider value={value}>
